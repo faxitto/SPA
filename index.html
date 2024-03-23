@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spa</title>
+    <style>
+        html,body{
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+        nav{
+            background-color: 
+            darkseagreen;
+            position: sticky;
+            top: 0;
+        }
+        nav a{
+            line-height: 50px;
+            color: darkgoldenrod;
+            text-decoration: none;
+            padding: 0 10px;
+            display: inline-block;
+        }
+        section{
+            height: calc(100vh - 50px);
+            scroll-margin-top: 50px;
+        }
+        #home{
+            background-color: goldenrod;
+            color: gainsboro;
+        }
+        #galery{
+            background-color: skyblue;
+            color: seagreen;
+        }
+        #about{
+            background-color: peru;
+            color: purple;
+        }
+        #contact{
+            background-color: burlywood;
+            color: brown;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            background-color: darkkhaki;
+        }
+        .img{
+            height: 40px;
+            width: 40px;
+            margin: 10px;
+            background: url(phone.png) center / cover;
+        }
+        .img1{
+            background: url(email.png) center / cover;
+            height: 40px;
+            width: 40px;
+            margin: 10px;
+        }
+        .img2{
+            height: 40px;
+            width: 40px;
+            background: url(WhatsApp.png) center / cover;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#galery">Galery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">Home Page
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione alias, rerum pariatur aperiam laboriosam, dolorem quia, error officia sapiente quo veniam porro. Qui obcaecati autem hic veniam mollitia nemo earum?</p>
+    </section>
+    <section id="galery">Galery Page
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius tenetur qui delectus? Ea error impedit officia qui! Reprehenderit, mollitia nemo, ipsa quaerat ab nesciunt soluta esse enim cumque excepturi saepe!</p>
+    </section>
+    <section id="about">About Page
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quam esse pariatur blanditiis est corrupti assumenda sed architecto magni similique aut ut mollitia beatae nihil qui, optio odit unde eum alias autem hic. Neque et adipisci omnis voluptatem odio culpa.</p>
+    </section>
+    <section id="contact">Contact Page
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eligendi nostrum dolorem rerum corporis tempore ea enim maiores. Animi magnam, assumenda recusandae quidem quos modi quo officiis nemo voluptas neque.</p>
+    </section>
+    <footer>
+        <a href="tel:+994997666060">
+            <div class="img"></div>
+        </a>
+        <a href="mailto:faxitto@gmail.com">
+            <div class="img1"></div>
+        </a>
+        <a href="https://wa.me/+994997666060">
+            <div class="img2"></div>
+        </a>
+    </footer>
+</body>
+</html>
